@@ -4,73 +4,116 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Vedic Numerology Course — Kasturi Divine</title>
+  <meta name="description" content="Vedic Numerology Course by Dr. Santoshh Jakhar & Mrs. Neitu Choudhary. Name correction, birth-number forecasting, live case studies & certificate." />
+  <!-- Replace G-XXXXXXXXXX with your GA4 Measurement ID -->
+  <script>
+    /* Google Analytics 4 (GA4) - Replace measurement_id with your G-XXXXXXXXXX */
+    (function(){
+      var measurement_id = 'G-XXXXXXXXXX'; // <-- REPLACE THIS
+      if(measurement_id && measurement_id.indexOf('G-')===0){
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', measurement_id);
+        var s = document.createElement('script');
+        s.async = true;
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurement_id;
+        document.head.appendChild(s);
+        window.gtag = gtag;
+      } else {
+        // GA not configured - leave or log
+        console.warn('GA4 measurement id not set. Replace G-XXXXXXXXXX with your id.');
+      }
+    })();
+  </script>
+
   <style>
     :root{
       --accent:#C6862D;
-      --bg:#fbfbfb;
-      --card:#fff;
-      --muted:#6b6b6b;
       --deep:#0b4b4b;
+      --muted:#666666;
+      --card:#ffffff;
+      --bg:#fbfbff;
+      --max-width:1000px;
+      --radius:12px;
+      --gap:18px;
+      --container-pad:20px;
+      --shadow: 0 12px 40px rgba(6,20,40,0.08);
     }
     *{box-sizing:border-box}
-    body{font-family: 'Poppins', system-ui, -apple-system, Roboto, Arial; margin:0; background:linear-gradient(180deg,#fff,#fbfbff); color:#111}
-    .container{max-width:1000px;margin:28px auto;padding:18px}
-    .card{background:var(--card);border-radius:12px;box-shadow:0 12px 40px rgba(6,20,40,0.08);overflow:hidden}
-    .hero{display:grid;grid-template-columns:1fr 420px;gap:18px;align-items:center;padding:28px}
-    @media(max-width:900px){.hero{grid-template-columns:1fr;}.hero-right{order:-1}}
-    .badge{display:inline-block;background:var(--accent);color:white;padding:6px 12px;border-radius:999px;font-weight:700}
-    h1{font-size:34px;margin:6px 0 10px;color:var(--deep);letter-spacing:0.6px}
-    p.lead{margin:0 0 14px;color:var(--muted);font-size:16px}
-    .price{font-size:18px;font-weight:800;margin:10px 0;color:var(--accent)}
-    .btn{display:inline-block;padding:12px 18px;border-radius:10px;text-decoration:none;font-weight:700;border:0;cursor:pointer}
-    .btn-primary{background:var(--deep);color:white}
-    .btn-outline{background:transparent;border:2px solid var(--deep);color:var(--deep)}
-    .hero-right img{width:100%;height:auto;display:block;border-radius:8px;object-fit:cover}
-    .meta{font-size:14px;color:var(--muted);margin-top:10px}
-    .features{display:flex;gap:10px;flex-wrap:wrap;margin-top:12px}
-    .feature{background:#fff9f2;padding:10px;border-radius:8px;font-size:14px;border:1px solid #fff0e0}
-    .footer{padding:18px;border-top:1px solid #f0f0ff;background:#fafaff;text-align:center}
-    .coach{display:flex;gap:12px;align-items:center}
-    .coach img{width:72px;height:72px;object-fit:cover;border-radius:999px;border:3px solid #fff}
-    .contact{margin-top:12px}
-    .contact a{display:inline-flex;align-items:center;gap:8px;padding:10px 12px;border-radius:8px;text-decoration:none;background:#e9fff9;color:#044; margin-right:8px}
-    .small{font-size:13px;color:var(--muted)}
+    body{
+      margin:0;
+      font-family: Inter, system-ui, -apple-system, "Poppins", Roboto, Arial, sans-serif;
+      background: linear-gradient(180deg,#ffffff,#fbfbff);
+      color:#111;
+    }
+    .site{ max-width:var(--max-width); margin:28px auto; padding:var(--container-pad); }
+    .card{ background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; }
+    .hero{ display:grid; grid-template-columns:1fr 420px; gap:var(--gap); align-items:center; padding:28px; }
+    @media (max-width:900px){ .hero{ grid-template-columns:1fr; padding:20px; } .hero-right{ order:-1; } }
+    .badge{ display:inline-block; background:var(--accent); color:#fff; padding:6px 12px; border-radius:999px; font-weight:700; font-size:13px; }
+    h1{ margin:10px 0 6px; font-size:32px; line-height:1.05; color:var(--deep); }
+    p.lead{ margin:0 0 12px; color:var(--muted); font-size:15px; }
+    .price{ font-size:18px; font-weight:800; color:var(--accent); margin-top:6px; }
+    .actions{ margin-top:14px; display:flex; gap:12px; flex-wrap:wrap; }
+    .btn{ display:inline-flex; align-items:center; gap:10px; padding:11px 16px; border-radius:10px; font-weight:700; cursor:pointer; text-decoration:none; border:0; }
+    .btn-primary{ background:var(--deep); color:#fff; }
+    .btn-outline{ background:transparent; border:2px solid var(--deep); color:var(--deep); }
+    .features{ display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+    .feature{ background:#fff9f2; border:1px solid #fff0e0; padding:10px 12px; border-radius:8px; font-size:14px; }
+    .hero-right{ padding:8px; display:flex; align-items:center; justify-content:center; }
+    .hero-right img{ width:100%; height:auto; max-height:420px; border-radius:10px; object-fit:cover; display:block; box-shadow: 0 10px 30px rgba(10,10,30,0.06); }
+    .coaches{ margin-top:16px; display:flex; gap:12px; flex-direction:column; }
+    .coach{ display:flex; gap:12px; align-items:center; }
+    .coach img{ width:68px; height:68px; border-radius:999px; object-fit:cover; border:3px solid #fff; box-shadow:0 6px 20px rgba(6,20,40,0.06) }
+    .contact{ margin-top:16px; display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    .contact a{ text-decoration:none; display:inline-flex; gap:8px; align-items:center; padding:10px 12px; border-radius:10px; background:#e9fff9; color:#044; font-weight:700; border:1px solid rgba(2,80,60,0.06) }
+    .details{ padding:22px; border-top:1px solid #f0f2f5; background:linear-gradient(180deg,#fff,#fffaf5); }
+    .details h3{ margin:0 0 8px; font-size:20px; color:var(--deep); }
+    .details ul{ margin:8px 0 16px 20px; color:var(--muted) }
+    .footer{ padding:14px; text-align:center; font-size:13px; color:var(--muted); border-top:1px solid #f4f6f9; background:#fafaff; }
+    .payment-block{ display:flex; gap:18px; align-items:center; margin-top:18px; flex-wrap:wrap; }
+    .qr{ width:200px; height:200px; background:#fff; border-radius:12px; padding:12px; box-shadow:0 8px 20px rgba(5,10,20,0.06); display:flex; align-items:center; justify-content:center; }
+    .qr img{ width:100%; height:100%; object-fit:contain; border-radius:8px; }
+    .upi{ font-weight:700; color:var(--deep); font-size:16px; }
+    .upi small{ display:block; font-weight:400; color:var(--muted); font-size:13px; margin-top:6px; }
+    .hidden { display:none; }
   </style>
 </head>
 <body>
-  <div class="container">
-    <div class="card">
-      <div class="hero">
+  <div class="site">
+    <div class="card" role="main" aria-labelledby="page-title">
+      <div class="hero" role="region" aria-label="Course intro">
         <div>
-          <div class="badge">BASIC → PROFESSIONAL</div>
-          <h1>VEDIC NUMEROLOGY COURSE</h1>
-          <p class="lead">Practical training to read numbers in names & birth charts — name correction, yearly forecasts, marriage & career timings. Live case studies and a certificate on completion.</p>
+          <span class="badge">BASIC → PROFESSIONAL</span>
+          <h1 id="page-title">VEDIC NUMEROLOGY COURSE</h1>
+          <p class="lead">Practical training to read numbers in names & birth charts — name correction, yearly forecasts, marriage & career timing. Live case studies, templates and certificate on completion.</p>
 
-          <div class="price">Special Fee: <strong>₹1,999</strong> (Early bird)</div>
+          <div class="price">Early bird fee: <strong>₹1,999</strong></div>
 
-          <div style="margin-top:10px">
-            <a class="btn btn-primary" id="whBtn">Message on WhatsApp to Enroll</a>
+          <div class="actions">
+            <a class="btn btn-primary" id="enrollBtn" href="#" aria-label="Message on WhatsApp to enroll">📲 Message on WhatsApp</a>
             <a class="btn btn-outline" href="#details">Course details</a>
           </div>
 
-          <div class="features" style="margin-top:14px">
-            <div class="feature">Live Sessions (Weekend batch)</div>
-            <div class="feature">Templates & Worksheets</div>
-            <div class="feature">Certificate</div>
+          <div class="features" aria-hidden="false">
+            <div class="feature">Live sessions (Weekend batches)</div>
+            <div class="feature">Templates & worksheets</div>
+            <div class="feature">Certificate of completion</div>
             <div class="feature">Lifetime Q&A</div>
           </div>
 
-          <div style="margin-top:16px">
+          <div class="coaches" aria-label="Instructors">
             <div class="coach">
-              <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Dr Santoshh" />
+              <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Dr Santoshh Jakhar" />
               <div>
                 <div style="font-weight:700">Dr. Santoshh Jakhar</div>
                 <div class="small">Wellness Coach</div>
               </div>
             </div>
 
-            <div class="coach" style="margin-top:10px">
-              <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Mrs Neitu" />
+            <div class="coach">
+              <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Mrs Neitu Choudhary" />
               <div>
                 <div style="font-weight:700">Mrs. Neitu Choudhary</div>
                 <div class="small">Numero & Astro Coach</div>
@@ -78,46 +121,136 @@
             </div>
           </div>
 
-          <div class="contact">
-            <a id="wa1" href="https://api.whatsapp.com/send?phone=+919205681456&text=I%20want%20to%20join%20Vedic%20Numerology%20Course">📲 9205681456</a>
-            <a id="wa2" href="https://api.whatsapp.com/send?phone=+919736317525&text=I%20want%20to%20join%20Vedic%20Numerology%20Course">📞 9736317525</a>
+          <div class="contact" aria-label="Contact numbers">
+            <a id="wa1" href="https://api.whatsapp.com/send?phone=%2B919205681456&text=JOIN%20NUMERO%20%E2%80%94%20I%20want%20to%20enroll%20in%20the%20Vedic%20Numerology%20Course" target="_blank" rel="noopener">📲 9205681456</a>
+            <a id="wa2" href="https://api.whatsapp.com/send?phone=%2B919736317525&text=JOIN%20NUMERO%20%E2%80%94%20I%20want%20to%20enroll%20in%20the%20Vedic%20Numerology%20Course" target="_blank" rel="noopener">📞 9736317525</a>
+            <span class="small" style="margin-left:8px">or message <code class="u">JOIN NUMERO</code></span>
           </div>
 
+          <!-- PAYMENT BLOCK: QR + UPI details -->
+          <div class="payment-block" aria-label="Payment options">
+            <div class="qr" title="Payment QR - replace with your actual QR image">
+              <!-- TEMPORARY: using uploaded image path as placeholder for QR. Replace with actual QR image path like /mnt/data/payment_qr.png -->
+              <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Payment QR (replace with real QR image)" />
+            </div>
+
+            <div>
+              <div class="upi">UPI ID: <span id="upiId">yourupi@bank</span></div>
+              <small>Also accept: Bank transfer / Paytm / PhonePe. Send payment screenshot on WhatsApp after payment to confirm seat.</small>
+
+              <!-- Optional: show QR alt text for accessibility and fallback -->
+              <div class="small" style="margin-top:10px;">If QR doesn't load, use UPI ID above or pay to: <strong id="upiText">yourupi@bank</strong></div>
+
+              <!-- Transaction note (pre-fill text for WhatsApp to send payment screenshot) -->
+              <div style="margin-top:12px;">
+                <a class="btn btn-outline" id="payConfirm" href="#" role="button">Send payment screenshot on WhatsApp</a>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="hero-right">
-          <!-- hero photo (uses uploaded path) -->
-          <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Vedic Numerology" />
+        <div class="hero-right" aria-hidden="false">
+          <!-- hero photo uses uploaded path - ensure server serves this path -->
+          <img src="/mnt/data/KASTURI DIVINE (8).jpg" alt="Vedic Numerology hero" />
         </div>
       </div>
 
-      <div id="details" style="padding:20px">
+      <div id="details" class="details" role="region" aria-label="Course details">
         <h3>Course Outline</h3>
         <ul>
-          <li>Week 1 — Basics: Numbers, name-number mapping, life path</li>
-          <li>Week 2 — Birth number & timing cycles (yearly/monthly)</li>
-          <li>Week 3 — Name correction & remedies (practical)</li>
-          <li>Week 4 — Case studies, client reading format & doing consultations</li>
+          <li><strong>Week 1</strong> — Basics: Number meanings, name-number mapping, life path</li>
+          <li><strong>Week 2</strong> — Birth number cycles & timing: yearly/monthly</li>
+          <li><strong>Week 3</strong> — Name correction & practical remedies</li>
+          <li><strong>Week 4</strong> — Case studies, client reading format, starting consultations</li>
         </ul>
 
         <h3>How to enroll</h3>
-        <p><strong>1)</strong> Message on WhatsApp: <em>“JOIN NUMERO”</em> to +91 9205681456 or +91 9736317525.</p>
-        <p><strong>2)</strong> Pay the fee (bank/UPI/QR). Send payment screenshot on WhatsApp.</p>
+        <ol>
+          <li>Pay using QR above or UPI: <strong id="upiIdText">yourupi@bank</strong>.</li>
+          <li>After payment, click <em>Send payment screenshot</em> (button below) or message on WhatsApp <code class="u">JOIN NUMERO</code> to 9205681456 / 9736317525 to confirm your seat.</li>
+        </ol>
 
-        <p class="small">Tip: Want a different batch timing? Message us on WhatsApp with your preferred days/times.</p>
+        <p class="small">Tip: Want a different batch timing? Message us on WhatsApp with preferred days/times and we will try to accommodate.</p>
       </div>
 
-      <div class="footer">
-        <div class="small">Limited seats. Certificate after completion. Questions? Message any time.</div>
+      <div class="footer" role="contentinfo">
+        <div class="small">Organized by Kasturi Divine · Limited seats · Certificate after completion · Questions? Message any time.</div>
       </div>
     </div>
   </div>
 
   <script>
-    // Buttons open WhatsApp with prefilled message
-    document.getElementById('whBtn').addEventListener('click', function(){
-      window.open('https://api.whatsapp.com/send?phone=+919205681456&text=' + encodeURIComponent('JOIN NUMERO — I want to enroll in Vedic Numerology Course'), '_blank');
-    });
+    /*************************************************************
+     * UTM auto-fill & WhatsApp message builder
+     * - If URL has utm_source/utm_medium/utm_campaign, append to message
+     * - Also add referral param if present (ref=...)
+     * - When user clicks enroll or send-screenshot, open WhatsApp with prefilled text
+     *************************************************************/
+    (function(){
+      // Primary phone numbers
+      const phonePrimary = '+919205681456';
+      const phoneSecondary = '+919736317525';
+
+      // Read UTM params from URL
+      function getQueryParams() {
+        const search = window.location.search.substring(1);
+        if(!search) return {};
+        return Object.fromEntries(new URLSearchParams(search));
+      }
+
+      const params = getQueryParams();
+      const utm = {};
+      ['utm_source','utm_medium','utm_campaign','ref'].forEach(k=>{
+        if(params[k]) utm[k] = params[k];
+      });
+
+      function buildMessage(base){
+        let msg = base;
+        const pieces = [];
+        if(utm.utm_source) pieces.push('source:' + utm.utm_source);
+        if(utm.utm_medium) pieces.push('medium:' + utm.utm_medium);
+        if(utm.utm_campaign) pieces.push('campaign:' + utm.utm_campaign);
+        if(utm.ref) pieces.push('ref:' + utm.ref);
+        if(pieces.length) msg += ' (' + pieces.join(' | ') + ')';
+        return msg;
+      }
+
+      // Enroll button - opens WhatsApp to primary phone with prefilled message
+      const enrollBtn = document.getElementById('enrollBtn');
+      enrollBtn.addEventListener('click', function(e){
+        e.preventDefault();
+        const base = 'JOIN NUMERO — I want to enroll in the Vedic Numerology Course';
+        const text = buildMessage(base);
+        const url = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(phonePrimary) + '&text=' + encodeURIComponent(text);
+        window.open(url, '_blank', 'noopener');
+        // Track event to GA if present
+        if(window.gtag) window.gtag('event','enroll_click',{method:'whatsapp'});
+      });
+
+      // Pay-confirm button (send payment screenshot) - opens WA with payment note
+      const payConfirm = document.getElementById('payConfirm');
+      payConfirm.addEventListener('click', function(e){
+        e.preventDefault();
+        // If you want UPI id to be dynamic, update element #upiId and #upiIdText above
+        const upi = document.getElementById('upiId').innerText || 'yourupi@bank';
+        const base = 'I have paid ₹1,999 for Vedic Numerology Course. UPI/Txn details: ' + upi + ' — sending screenshot.';
+        const text = buildMessage(base);
+        const url = 'https://api.whatsapp.com/send?phone=' + encodeURIComponent(phonePrimary) + '&text=' + encodeURIComponent(text);
+        window.open(url, '_blank', 'noopener');
+        if(window.gtag) window.gtag('event','payment_screenshot_click',{method:'whatsapp'});
+      });
+
+      // Populate UPI text from config if you want to set it programmatically
+      // Replace these values below programmatically from server or DOM if needed
+      const upiId = 'yourupi@bank'; // <-- REPLACE this with actual UPI ID
+      document.getElementById('upiId').innerText = upiId;
+      document.getElementById('upiIdText').innerText = upiId;
+      document.getElementById('upiText').innerText = upiId;
+
+      // Optional: if utm params present, show a console log
+      if(Object.keys(utm).length) console.info('UTM params detected:', utm);
+
+    })();
   </script>
 </body>
 </html>
